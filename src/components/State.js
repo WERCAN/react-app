@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 //-- there are two ways to create state first given rightdown second way consructor
 state ={
     isVisible : true ,
-    name : 'merve',
+    name : 'muslum',
     books : ['lords', 'kings', 'readings']
 }
 

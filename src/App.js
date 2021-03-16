@@ -13,6 +13,7 @@ import BindEtme from "./components/BindEtme";
 import Parent from "./components/Parent";
 import KosulluRender from "./components/KosulluRender";
 import KitapList from "./components/KitapList";
+import BasitForm from "./components/BasitForm";
 
 function App() {
   return (
@@ -41,6 +42,8 @@ function App() {
       <KosulluRender/>
 
       <KitapList/>
+
+      <BasitForm/>
 
       <h4>App Component</h4>
 
