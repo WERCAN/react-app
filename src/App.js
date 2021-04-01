@@ -14,13 +14,16 @@ import Parent from "./components/Parent";
 import KosulluRender from "./components/KosulluRender";
 import KitapList from "./components/KitapList";
 import BasitForm from "./components/BasitForm";
+import SayacNew from "./components/SayacNew";
+import DataFetch from "./components2/DataFetch";
+import DataFetch2 from "./components2/DataFetch2";
 
 function App() {
   return (
     <div className="App">
       
 
-      <Selamla />
+      {/* <Selamla />
 
       <Form  title="props in class Component"/>
 
@@ -43,7 +46,12 @@ function App() {
 
       <KitapList/>
 
-      <BasitForm/>
+      <BasitForm/> */}
+
+      <SayacNew/>
+
+      <DataFetch/>
+      <DataFetch2/>
 
       <h4>App Component</h4>
 
